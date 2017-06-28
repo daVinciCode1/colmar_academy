@@ -206,6 +206,12 @@ nav a:hover {
   align-items: flex-start;
 }
 
+@media only screen and (max-device-width: 450px) {
+  .info {background-color: white;
+  border: 1px solid #D8D8D8}
+
+}
+
   /* Main Content */
 
 .main-content h1 {
@@ -398,7 +404,7 @@ nav a:hover {
   }
 }
 
-/* Courses */
+/* Supporting */
 
 .supporting {
   background-color: #D8D8D8;
@@ -413,6 +419,20 @@ nav a:hover {
   font-weight: 700;
   line-height: 1.25;
 }
+
+@media only screen and (max-device-width: 450px) {
+  .supporting {
+    background-color: white;
+    border: 1px solid #D8D8D8;
+  }
+  .supporting h1 {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+}
+
+/* Courses */
 
 .courses {
   display: flex;
@@ -459,6 +479,31 @@ nav a:hover {
   padding: 8px 0;
 }
 
+@media only screen and (max-device-width: 450px) {
+  .courses {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .course {
+    margin: 0;
+    width: 95%;
+    padding: 8px;
+  }
+  .course .media-container {
+    display: none;
+  }
+  .course .text-content {
+    background-color: #D8D8D8;
+  }
+  .course p {
+    display: none;
+  }
+  .course h2 {
+    font-size: 1.5rem;
+    padding: 16px;
+  }
+}
+
 /* Supporting-1 */
 
 .supporting-1 {
@@ -472,6 +517,16 @@ nav a:hover {
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.25;
+}
+
+@media only screen and (max-device-width: 450px) {
+  .supporting-1 {
+    background-color: white;
+    border: 0.5px solid #D8D8D8;
+  }
+  .supporting-1 h1 {
+    font-size: 2rem;
+  }
 }
 
 /* Thesis */
@@ -494,11 +549,36 @@ nav a:hover {
     font-size: 2rem;
   }
 
+  @media only screen and (max-device-width: 450px) {
+    .thesis .main-content {
+      display: inline;
+      width: 100%;
+      padding: 0;
+      padding-bottom: 24px;
+      height: 100%;
+    }
+    .thesis .main-content .text-content {
+      display: none;
+    }
+    .thesis h1 {
+      padding: 2rem;
+    }
+    .thesis .media-container {
+      width: 100%;
+    }
+  }
+
   /* Supporting-content */
   .thesis .supporting-content {
     padding-left: 16px;
     display: flex;
     flex-flow: column wrap;
+  }
+
+  @media only screen and (max-device-width: 450px) {
+    .thesis .supporting-content{
+      display: none;
+    }
   }
 
   /* Fisma */
@@ -600,4 +680,20 @@ footer a {
 
 footer a:hover {
   opacity: 0.5;
+}
+
+@media only screen and (max-device-width: 450px) {
+  footer {
+    padding: 0;
+    width: 100%;
+    display: inline;
+  }
+  .copyright {
+    border-top: 1px solid #D8D8D8;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  footer ul {
+    display: none;
+  }
 }
