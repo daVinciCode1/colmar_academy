@@ -359,3 +359,134 @@ nav a:hover {
   text-transform: uppercase;
   padding: 8px 0;
 }
+
+/* Supporting-1 */
+
+.supporting-1 {
+  background-color: rgb(237, 234, 234);
+}
+
+.supporting-1 h1 {
+  text-align: center;
+  padding-top: 2rem;
+  color: #4A4A4E;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+/* Thesis */
+.thesis {
+  padding: 32px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+}
+
+  /* Main-content */
+  .thesis .main-content {
+    width: 60%;
+  }
+
+  .thesis .main-content .text-content h1 {
+    padding-top: 24px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+
+  /* Supporting-content */
+  .thesis .supporting-content {
+    padding-left: 16px;
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  /* Fisma */
+  .fisma {
+    width: 423px;
+    height: 168px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    }
+
+  .fisma .media-container {
+    width: 35%;
+    overflow: hidden;
+    }
+
+  .fisma .media-container img {
+    padding: 1rem;
+    height: auto;
+    display: block;
+    width: 100%;
+    }
+
+  .fisma .text-content {
+    padding-left: 16px;
+  }
+
+  .fisma .text-content h3 {
+    font-size: 1.4rem;
+  }
+
+  .fisma .text-content p {
+    font-family: "Quicksand", sans-serif;
+    line-height: 1.2;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 1rem;
+  }
+
+  /* Now and then */
+  .now-and-then {
+    width: 423px;
+    height: 168px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    }
+
+  .now-and-then .media-container {
+    width: 35%;
+    overflow: hidden;
+    }
+
+  .now-and-then .media-container img {
+    padding: 1rem;
+    height: auto;
+    display: block;
+    width: 100%;
+    }
+
+  .now-and-then .text-content {
+    padding-left: 16px;
+  }
+
+  .now-and-then .text-content h3 {
+    font-size: 1.4rem;
+  }
+
+  .now-and-then .text-content p {
+    font-family: "Quicksand", sans-serif;
+    line-height: 1.2;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 1rem;
+  }
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  padding: 24px;
+  width: 100%;
+}
+
+footer ul{
+  text-align: right;
+  display: inline;
+}
