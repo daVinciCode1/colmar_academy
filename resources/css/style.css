@@ -244,6 +244,10 @@ nav a:hover {
     flex-flow: column wrap;
   }
 
+.supporting-content #mobile-image {
+  display: none;
+}
+
   @media only screen and (max-device-width: 425px) {
     .supporting-content {
       width: 100%;
@@ -300,6 +304,12 @@ nav a:hover {
   .orientation .media-container {
     width: 100%;
   }
+  .orientation .media-container img {
+    display: none;
+  }
+  .orientation .media-container #mobile-image {
+    display: inline;
+  }
 }
 
   /* Campus */
@@ -351,6 +361,12 @@ nav a:hover {
     .campus .media-container {
       width: 100%;
     }
+    .campus .media-container img {
+      display: none;
+    }
+    .campus .media-container #mobile-image {
+      display: inline;
+    }
   }
 
   /* Guest Lecture */
@@ -401,6 +417,12 @@ nav a:hover {
   }
   .guest-lecture .media-container {
     width: 100%;
+  }
+  .guest-lecture .media-container img {
+    display: none;
+  }
+  .guest-lecture .media-container #mobile-image {
+    display: inline;
   }
 }
 
